@@ -43,4 +43,50 @@ If you're using eclise, go to the class **ServiceConfigApplication** and run it 
 
 In a browser, use this url to restor configurations:
 * http://localhost:8888/application/master 
+```json
+{
+   "name":"application",
+   "profiles":[
+      "master"
+   ],
+   "label":null,
+   "version":"b8c864698f31cae72499afb9ee0470a9ef2d4232",
+   "state":null,
+   "propertySources":[
+      {
+         "name":"file://C:\\Users\\ylaarous/cloud-conf/file:C:\\Users\\ylaarous\\cloud-conf\\application.properties",
+         "source":{
+            "xParam":"687"
+         }
+      }
+   ]
+}
+```
 * http://localhost:8888/company-service/master
+```json
+{
+   "name":"company-service",
+   "profiles":[
+      "master"
+   ],
+   "label":null,
+   "version":"b8c864698f31cae72499afb9ee0470a9ef2d4232",
+   "state":null,
+   "propertySources":[
+      {
+         "name":"file://C:\\Users\\ylaarous/cloud-conf/file:C:\\Users\\ylaarous\\cloud-conf\\company-service.properties",
+         "source":{
+            "yParam":"862",
+            "me":"yassir.laaroussi@outlook.com",
+            "server.port":"8081"
+         }
+      },
+      {
+         "name":"file://C:\\Users\\ylaarous/cloud-conf/file:C:\\Users\\ylaarous\\cloud-conf\\application.properties",
+         "source":{
+            "xParam":"687"
+         }
+      }
+   ]
+}
+```
